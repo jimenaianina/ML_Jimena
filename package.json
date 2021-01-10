@@ -1,0 +1,22 @@
+{
+  "name": "ml-jimena",
+  "version": "1.0.0",
+  "description": "proyecto mercado liebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app$*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimenaianina/ML_Jimena.git"
+  },
+  "author": "Jimena Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimenaianina/ML_Jimena/issues"
+  },
+  "homepage": "https://github.com/jimenaianina/ML_Jimena#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
