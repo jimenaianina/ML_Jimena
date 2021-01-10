@@ -5,6 +5,8 @@
 }
 
 body{
+    display:flex;
+    flex-direction: column;
     font-family: 'Roboto';
     background-color: #ebebeb;
 }
@@ -14,6 +16,7 @@ p{
 }
 
 header img {
+    display: flex;
     width: 50%;
 }
 
@@ -33,6 +36,7 @@ header nav ul li a {
 
 
 main article img {
+    display: flex;
     width: 50%;
 }
  
@@ -49,21 +53,34 @@ div.burger-menu i{
     width: 40px;
     height: 40px;
     background-color: #0044AA;
-    color: white;
+    color: #FFF;
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
+    
+}
+
+div.burger-menu i:hover{
+    cursor: pointer;
+    background-color: #0022AA;
 }
 
 main {
     width: 90%;
-    text-align: center;
+    margin: 0 auto;
 }
 
 main article{
     margin: 10px;
+    padding: 15px;
     background-color: white;
     text-align: center;
+
+}
+
+main section article img {
+    diplay: block;
+    width: 100%;
 }
 
 div.productDetails {
@@ -74,16 +91,16 @@ div.productDetails {
     border-top-style: solid;
 }
 
-div.productDetails i {
+main section article i{
+    display: block;
     color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
     width: 30px;
     height: 30px;
-    padding: 5px;
     border: 1px solid #39b54a;
-    background-color: #FFF;
     border-radius: 50%;
 }
-
 
 #price {
     font-size: 18px;
@@ -101,6 +118,7 @@ main h2 {
 }
 
 main h3 {
+    margin: 20px 0 px;
     visibility: hidden;
     font-size: 16px;
     color: #666;
