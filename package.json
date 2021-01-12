@@ -4,7 +4,7 @@
   "description": "proyecto mercado liebre",
   "main": "app.js",
   "scripts": {
-    "test": "node app$*"
+    "test": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jimenaianina/ML_Jimena#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   }
 }
