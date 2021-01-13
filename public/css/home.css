@@ -72,8 +72,8 @@ main {
     margin: 0 auto;
 }
 
-div.lastVisit,
-div.onSale{
+.lastVisit,
+.onSale{
     display: flex;
     flex-wrap: wrap;
 }
