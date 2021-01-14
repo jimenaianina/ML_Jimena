@@ -54,37 +54,41 @@
 
 <form action="/registro" method="POST">
 
-    <label for="nombreCompleto"> Nombre y Apellido</label>
-    <input type="text" name="nombreCompleto" id="nombreCompleto">
+    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" id="nombreCompleto">
 
-    <label for="usuario"> Nombre de Usuario </label>
-    <input type="text" name="usuario" id="usuario">
+    <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario">
+
+    <input type="email" placeholder="E-mail" name="email" id="email">
 
     <label for="fechaNacimiento"> Fecha de nacimiento </label>
-    <input type="date" name="fechaNacimiento" >
+    <input type="date" name="fechaNacimiento">
 
-    <label for="domicilio"> Domicilio </label>
-    <input type="text">
+    <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio">
 
     <label for="perfil"> Perfil de usuario </label>
+    <label for="vendedor">Vender</label>
     <input type="radio" name="perfil" value="Vender">
+    <label for="comprador">Comprar</label>
     <input type="radio" name="perfil" value="Comprar">
 
     <label for="categoriasInteres"> Categorías de interés </label>
     <input type="checkbox" name="categoriasInteres" value="Electro">
+    <label for="categoriasInteres">Electro</label>
     <input type="checkbox" name="categoriasInteres" value="Moda">
+    <label for="categoriasInteres">Moda</label>
     <input type="checkbox" name="categoriasInteres" value="Hogar">
+    <label for="categoriasInteres">Hogar</label>
     <input type="checkbox" name="categoriasInteres" value="Juguetería">
+    <label for="categoriasInteres">Juguetería</label>
     <input type="checkbox" name="categoriasInteres" value="Vida Sana">
+    <label for="categoriasInteres">Vida Sana</label>
 
     <label for="fotoUsuario"> Subir una foto de perfil </label>
     <input type="file" name="fotoUsuario" accept=".jpg .jpeg .png .gif">
 
-    <label for="password"> Contraseña </label>
-    <input type="password" name="password" pattern=".{8}">
+    <input type="password" placeholder="Contraseña" name="password" pattern=".{8}">
     
-    <label for= "passwordCheck"> Confirmar contraseña </label>
-    <input type="password" name="passwordCheck" pattern=".{8}">  
+    <input type="password" placeholder="Confirmar contraseña" name="passwordCheck" pattern=".{8}">  
 
     <button type="reset"> Borrar datos </button>
     <button type="submit"> Enviar </button>
@@ -94,6 +98,7 @@
 
 <footer>
 
+    <div class="shoppingDescription">
     <article>
         <i class="fas fa-credit-card"></i>
         <h4>Pagá con tarjeta o en efectivo</h4>
@@ -112,6 +117,7 @@
         <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre protegid@.
         </p>
     </article>
+</div>
 
     <section id="copyright">
         <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
