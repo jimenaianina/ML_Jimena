@@ -52,6 +52,46 @@
 
 <main>
 
+<form action="/registro" method="POST">
+    <label for=""></label>
+    <input type="text">
+
+    <label for="nombreCompleto"> Nombre y Apellido</label>
+    <input type="text" name="nombreCompleto" id="nombreCompleto">
+
+    <label for="usuario"> Nombre de Usuario </label>
+    <input type="text" name="usuario" id="usuario">
+
+    <label for="fechaNacimiento"> Fecha de nacimiento </label>
+    <input type="date" name="fechaNacimiento" >
+
+    <label for="domicilio"> Domicilio </label>
+    <input type="text">
+
+    <label for="perfil"> Perfil de usuario </label>
+    <input type="radio" name="perfil" value="Vender">
+    <input type="radio" name="perfil" value="Comprar">
+
+    <label for="categoriasInteres"> Categorías de interés </label>
+    <input type="checkbox" name="categoriasInteres" value="Electro">
+    <input type="checkbox" name="categoriasInteres" value="Moda">
+    <input type="checkbox" name="categoriasInteres" value="Hogar">
+    <input type="checkbox" name="categoriasInteres" value="Juguetería">
+    <input type="checkbox" name="categoriasInteres" value="Vida Sana">
+
+    <label for="fotoUsuario"> Subir una foto de perfil </label>
+    <input type="file" name="fotoUsuario" accept=".jpg .jpeg .png .gif">
+
+    <label for="password"> Contraseña </label>
+    <input type="password" name="password" pattern=".{8}">
+    
+    <label for= "passwordCheck"> Confirmar contraseña </label>
+    <input type="password" name="passwordCheck" pattern=".{8}">  
+
+    <button type="reset"> Borrar datos </button>
+    <button type="submit"> Enviar </button>
+</form>
+
 </main>
 
 <footer>
