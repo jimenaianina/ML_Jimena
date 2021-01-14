@@ -67,6 +67,10 @@ div.burger-menu i:hover{
     background-color: #0022AA;
 }
 
+#banner {
+    width: 100%;
+}
+
 main {
     width: 90%;
     margin: 0 auto;
@@ -146,6 +150,7 @@ main h2 {
 #discount {
     font-size: 16px;
     width: 70%;
+    text-align: center;
 }
 
 main h3 {
@@ -163,10 +168,16 @@ main form {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    align-items: center;
+}
+
+.profile {
+    display: inline-flex;
+    flex-direction: row;
 }
 
 main form label {
-    align-self: center;
+    text-align: left;
 }
 
 main form input {
@@ -178,7 +189,6 @@ main form input {
     border-left: white;
     border-color: white;
     border-radius: 6px;
-    align-self: center;
 }
 
 main form button {
@@ -194,6 +204,18 @@ main form button {
     align-self: center;
     text-align: center;
     color: white;
+}
+
+#cajita {
+    margin-bottom: 36px;
+    padding: 12px;
+    width: 12px;
+    height: 12px;
+    border-top: white;
+    border-left: white;
+    border-color: white;
+    border-radius: 6px;
+    align-self: center;
 }
 
 #submitLogin:hover {
