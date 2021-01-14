@@ -134,6 +134,12 @@ main section article i{
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+main section article i:hover{
+
+    transform:rotateY(360deg);
 }
 
 #price {
