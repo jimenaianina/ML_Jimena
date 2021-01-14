@@ -33,7 +33,7 @@ header img {
 }
 
 header nav {
-    visibility: hidden;
+    display: none;
 }
 
 header nav ul li a {
@@ -72,10 +72,16 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 div.lastVisit,
 div.onSale{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 main article{
@@ -93,6 +99,7 @@ div.productDetails {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: baseline;
     border-top: 1px solid #ebebeb;
     position: relative;
@@ -120,6 +127,7 @@ main section article i{
 
 #price {
     font-size: 18px;
+    width: 30%;
 }
 
 main h2 {
@@ -130,7 +138,7 @@ main h2 {
 
 #discount {
     font-size: 16px;
-    width: 70%
+    width: 70%;
 }
 
 main h3 {
@@ -142,6 +150,11 @@ main h3 {
 
 footer {
     text-align: center;
+}
+
+footer article {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer article p {
@@ -166,18 +179,37 @@ main h3 {
 }
 
 main article {
+    display:inline-block;
     -webkit-box-shadow: 1px 1px 5px 0px grey;
     -moz-box-shadow: 1px 1px 5px 0px grey;
     box-shadow: 1px 1px 5px 0px grey;
-    width: 50%;
+    width: 45%;
+}
+
+div.topHeader img, #searchBar, #compraCuotas{
+    width: 33%;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 header nav {
     visibility: visible;
+    display: inline-flex;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 6px;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;   
 }
 
 .burger-menu {
-    visibility: hidden;
+    display: none;
 }
 }
 
@@ -188,18 +220,40 @@ main h3 {
 }
 
 main article {
+    display: inline-block;
+}
+
+main article {
     -webkit-box-shadow: 1px 1px 5px 0px grey;
     -moz-box-shadow: 1px 1px 5px 0px grey;
     box-shadow: 1px 1px 5px 0px grey;
-    width: 25%;
+    width: 22%;
+}
+
+div.topHeader img, #searchBar, #compraCuotas{
+    width: 33%;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 header nav {
     visibility: visible;
+    display: inline-flex;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 6px;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;   
 }
 
 .burger-menu {
-    visibility: hidden;
+    display: none;
 }
 
 }
