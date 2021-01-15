@@ -202,7 +202,9 @@ main form input {
     border-radius: 6px;
 }
 
-
+.titulo {
+    font-weight: bolder;
+}
 
 main form button {
     margin-bottom: 40px;
@@ -374,6 +376,11 @@ main form button {
     right: 210px;
 }
 
+#fotoUsuario {
+    font-weight: bolder;
+    position: relative;
+    right: 34px;
+}
 
 .bottomHeader {
     display: flex;
