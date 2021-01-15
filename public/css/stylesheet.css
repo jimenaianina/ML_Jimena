@@ -204,6 +204,29 @@ main form input {
 
 .titulo {
     font-weight: bolder;
+    position: relative;
+    right: 9%;
+    margin-bottom: 10px;
+}
+
+#perfilUsuario {
+    right:14%;
+}
+
+#categoria {
+    right: 8%;
+}
+
+#fotoUsuario {
+    font-weight: bolder;
+    position: absolute;
+    left: 19%;
+}
+
+#selFoto {
+    position: relative;
+    left: 12%;
+    bottom: -24px;
 }
 
 main form button {
@@ -256,6 +279,10 @@ footer i:hover {
     color: #666;
 }
 
+.shoppingDescription {
+    margin: 20px;
+}
+
 #copyright {
     text-align: left;
     font-size: 12px;
@@ -284,6 +311,28 @@ div.topHeader img, #searchBar, #compraCuotas{
     align-self: center;
     margin-bottom: 20px;
     margin-top: 0px;
+}
+
+.titulo {
+    font-weight: bolder;
+    position: relative;
+    right: 24%;
+    margin-bottom: 10px;
+}
+
+#perfilUsuario {
+    right: 26.5%;
+}
+
+#categoria {
+    right: 24%;
+}
+
+
+#selFoto {
+    position: relative;
+    left: 40%;
+    bottom: 14px;
 }
 
 header nav {
@@ -360,26 +409,19 @@ main form button {
 }
 
 .titulo {
-    font-weight: bolder;
-    position: relative;
-    right: 210px;
-    bottom: 12px;
+    right: 18.4%;
 }
 
 #perfilUsuario {
-    position: relative;
-    right: 227px;
+    right: 20%;
 }
 
-#categoria{
-    position: relative;
-    right: 210px;
+#categoria {
+    right: 18.5%;
 }
 
 #fotoUsuario {
-    font-weight: bolder;
-    position: relative;
-    right: 34px;
+    left: 28%;
 }
 
 .bottomHeader {
