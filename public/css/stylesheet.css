@@ -22,6 +22,9 @@ header{
 div.topHeader{
     display: flex;
     flex-wrap: wrap;
+    padding-left: 12px;
+    padding-top: 8px;
+    justify-content: center;
 }
 
 header img {
@@ -30,6 +33,23 @@ header img {
 
 #searchBar {
     width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header .topHeader #searchBar input {
+    width: 60%;
+    height: 32px;
+    padding: 4px;
+}
+
+header .topHeader #searchBar button {
+    width: 32px;
+    height: 32px
+}
+
+#compraCuotas {
+    margin-top: 24px;
 }
 
 header nav {
@@ -92,13 +112,6 @@ main article{
     margin: 10px;
     padding: 15px;
     background-color: white;
-}
-
-main article:hover {
-    -webkit-box-shadow: 1px 1px 5px 0px grey;
-    -moz-box-shadow: 1px 1px 5px 0px grey;
-    box-shadow: 1px 1px 5px 0px grey;
-    width: 22%;
 }
 
 main section article img {
@@ -165,10 +178,6 @@ main h3 {
     color: #666;
 }
 
-main h3:hover {
-    visibility: visible;
-}
-
 main form {
     display: flex;
     flex-direction: column;
@@ -216,11 +225,6 @@ main form button {
     padding: 12px;
     width: 12px;
     height: 12px;
-    border-top: white;
-    border-left: white;
-    border-color: white;
-    border-radius: 6px;
-    align-self: center;
 }
 
 #submitLogin:hover {
@@ -260,16 +264,21 @@ main article:hover h3 {
 
 main article {
     display:inline-block;
+    width: 45%;
+}
+
+main article:hover {
+    width: 45%;
     -webkit-box-shadow: 1px 1px 5px 0px grey;
     -moz-box-shadow: 1px 1px 5px 0px grey;
     box-shadow: 1px 1px 5px 0px grey;
-    width: 45%;
 }
 
 div.topHeader img, #searchBar, #compraCuotas{
     width: 33%;
     align-self: center;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 header nav {
@@ -301,19 +310,30 @@ main article:hover h3 {
 
 main article {
     display: inline-block;
+    width: 22%;
 }
 
-main article {
+main article:hover {
+    width: 22%;
     -webkit-box-shadow: 1px 1px 5px 0px grey;
     -moz-box-shadow: 1px 1px 5px 0px grey;
     box-shadow: 1px 1px 5px 0px grey;
-    width: 22%;
 }
 
 div.topHeader img, #searchBar, #compraCuotas{
     width: 33%;
     align-self: center;
     margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+header .topHeader #searchBar input {
+    width: 252px;
+    padding: 4px;
+}
+
+header .topHeader #searchBar button {
+    width: 30px;
 }
 
 header nav {
