@@ -192,6 +192,7 @@ main form {
 
 #titulo {
     font-weight: bolder;
+    ;
 }
 
 main form input {
@@ -204,6 +205,8 @@ main form input {
     border-color: white;
     border-radius: 6px;
 }
+
+
 
 main form button {
     margin-bottom: 40px;
