@@ -7,6 +7,8 @@ const path=require("path");
 
 app.use(express.static(path.resolve(__dirname,"public")));
 
+app.post("/",(req,res)=> res.sendFile(path.resolve(__dirname,"views","home.html")));
+
 app.get("/",(req,res)=> res.sendFile(path.resolve(__dirname,"views","home.html")));
 
 app.get("/login",(req,res)=> res.sendFile(path.resolve(__dirname,"views","login.html")));
