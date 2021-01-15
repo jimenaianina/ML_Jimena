@@ -55,16 +55,16 @@
 
 <form action="/" method="POST">
 
-    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" id="nombreCompleto">
+    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" id="nombreCompleto" required>
 
-    <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario">
+    <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required minlength="8">
 
-    <input type="email" placeholder="E-mail" name="email" id="email">
+    <input type="email" placeholder="E-mail" name="email" id="email" required>
 
     <label for="fechaNacimiento" class="titulo"> Fecha de nacimiento </label>
     <input type="date" name="fechaNacimiento">
 
-    <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio">
+    <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio" required>
 
     <label for="perfil" class="titulo" id="perfilUsuario"> Perfil de usuario </label>
 <section>
@@ -94,9 +94,9 @@
     <input type="file" id="selFoto" name="fotoUsuario" accept=".jpg .jpeg .png .gif">
 </section>
 
-    <input type="password" placeholder="Contraseña" name="password" pattern=".{8}">
+    <input type="password" placeholder="Contraseña" name="password" required pattern=".{8}">
     
-    <input type="password" placeholder="Confirmar contraseña" name="passwordCheck" pattern=".{8}">  
+    <input type="password" placeholder="Confirmar contraseña" name="passwordCheck" required pattern=".{8}">  
 
     <button type="reset"> Borrar datos </button>
     <button type="submit"> Enviar </button>

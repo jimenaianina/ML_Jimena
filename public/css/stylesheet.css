@@ -255,6 +255,12 @@ main form button {
 background-color: #666;
 }
 
+input:invalid:required {
+    -webkit-box-shadow: 1px 1px 5px 0px red;
+    -moz-box-shadow: 1px 1px 5px 0px red;
+    box-shadow: 1px 1px 5px 0px red;
+  }
+
 footer {
     text-align: center;
     background-color: white;
