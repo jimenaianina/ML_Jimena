@@ -179,6 +179,7 @@ main h3 {
 }
 
 main form {
+    align-self: center;
     display: flex;
     flex-direction: column;
     margin-top: 40px;
@@ -188,11 +189,6 @@ main form {
 .profile {
     display: inline-flex;
     flex-direction: row;
-}
-
-#titulo {
-    font-weight: bolder;
-    ;
 }
 
 main form input {
@@ -360,6 +356,24 @@ main form input {
 main form button {
     width: 50%;
 }
+
+.titulo {
+    font-weight: bolder;
+    position: relative;
+    right: 210px;
+    bottom: 12px;
+}
+
+#perfilUsuario {
+    position: relative;
+    right: 227px;
+}
+
+#categoria{
+    position: relative;
+    right: 210px;
+}
+
 
 .bottomHeader {
     display: flex;
