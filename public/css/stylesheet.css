@@ -190,8 +190,11 @@ main form {
     flex-direction: row;
 }
 
+#titulo {
+    font-weight: bolder;
+}
+
 main form label {
-    text-align: left;
 }
 
 main form input {
