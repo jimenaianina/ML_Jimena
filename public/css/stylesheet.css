@@ -41,11 +41,24 @@ header .topHeader #searchBar input {
     width: 60%;
     height: 32px;
     padding: 4px;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-style: hidden;
 }
 
 header .topHeader #searchBar button {
     width: 32px;
     height: 32px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: hidden;
+    background-color: white;
+    border-left-color: rgb(226, 226, 226);
+    border-left-width: thin;
 }
 
 #compraCuotas {
