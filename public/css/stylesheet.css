@@ -45,7 +45,8 @@ header .topHeader #searchBar input {
 
 header .topHeader #searchBar button {
     width: 32px;
-    height: 32px
+    height: 32px;
+    display: inline-block;
 }
 
 #compraCuotas {
@@ -178,23 +179,23 @@ main h3 {
     color: #666;
 }
 
-main form {
-    align-self: center;
+div#formRegister,
+div#formLogin {
+    display: flex;
+    justify-content: center;
+}
+
+main div form{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    align-items: center;
+    width: 60%;
+    padding-top: 40px;
 }
 
-.profile {
-    display: inline-flex;
-    flex-direction: row;
-}
-
-main form input {
+.box-form {
     margin-bottom: 36px;
     padding: 12px;
-    width: 70%;
+    width: 100%;
     height: 36px;
     border-top: white;
     border-left: white;
@@ -202,37 +203,22 @@ main form input {
     border-radius: 6px;
 }
 
-.titulo {
-    font-weight: bolder;
-    position: relative;
-    right: 9%;
-    margin-bottom: 10px;
+#profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-#perfilUsuario {
-    right:14%;
-}
-
-#categoria {
-    right: 8%;
-}
-
-#fotoUsuario {
-    font-weight: bolder;
-    position: absolute;
-    left: 19%;
-}
-
-#selFoto {
-    position: relative;
-    left: 12%;
-    bottom: -24px;
-    width: 320px;
+#select-photo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    size: 50px;
 }
 
 main form button {
     margin-bottom: 40px;
-    width: 70%;
+    width: 60%;
     height: 36px;
     background-color: #0022AA;
     border-top: #0022AA;
@@ -243,13 +229,6 @@ main form button {
     align-self: center;
     text-align: center;
     color: white;
-}
-
-.cajita {
-    margin-bottom: 36px;
-    padding: 12px;
-    width: 12px;
-    height: 12px;
 }
 
 #submitLogin:hover {
@@ -314,27 +293,6 @@ div.topHeader img, #searchBar, #compraCuotas{
     margin-top: 0px;
 }
 
-.titulo {
-    font-weight: bolder;
-    position: relative;
-    right: 24%;
-    margin-bottom: 10px;
-}
-
-#perfilUsuario {
-    right: 26.5%;
-}
-
-#categoria {
-    right: 24%;
-}
-
-
-#selFoto {
-    position: relative;
-    left: 40%;
-    bottom: 14px;
-}
 
 header nav {
     visibility: visible;
@@ -355,6 +313,22 @@ header nav ul li {
 .burger-menu {
     display: none;
 }
+
+#categorias {
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 140px;
+        margin-bottom: 40px;
+    }
+    
+#select-photo {
+        align-self: center;
+        size: 100%;
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -399,30 +373,6 @@ header nav {
 header nav ul li {
     display: inline;
     padding: 6px;
-}
-
-main form input {
-    width: 50%;
-}
-
-main form button {
-    width: 50%;
-}
-
-.titulo {
-    right: 18.4%;
-}
-
-#perfilUsuario {
-    right: 20%;
-}
-
-#categoria {
-    right: 18.5%;
-}
-
-#fotoUsuario {
-    left: 28%;
 }
 
 .bottomHeader {

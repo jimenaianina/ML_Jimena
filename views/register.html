@@ -53,52 +53,47 @@
 
 <main>
 
+<div id="formRegister">
 <form action="" method="POST">
 
-    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" required>
+    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" class="box-form" required>
 
-    <input type="text" placeholder="Nombre de usuario" name="usuario" required minlength="8">
+    <input type="text" placeholder="Nombre de usuario" name="usuario" class="box-form" required minlength="8">
 
-    <input type="email" placeholder="E-mail" name="email" id="email" required>
+    <input type="email" placeholder="E-mail" name="email" class="box-form" required>
 
-    <label for="fechaNacimiento" class="titulo"> Fecha de nacimiento </label>
-    <input type="date" name="fechaNacimiento" required>
+    <h4><label for="fechaNacimiento"> Fecha de nacimiento </label></h4>
+    <br> <input type="date" name="fechaNacimiento" class="box-form" required>
 
-    <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio" required>
+    <input type="text" placeholder="Domicilio" name="domicilio" class="box-form" required>
 
-    <label for="perfil" class="titulo" id="perfilUsuario"> Perfil de usuario </label>
-<section class="comprarOVender">
-    <label for="vendedor"> <input type="radio" class="cajita" class="perfilVendedor" name="perfil" value="Vender">Vender</label>
-    <label for="comprador"> <input type="radio" class="cajita" class="perfilVendedor" name="perfil" value="Comprar">Comprar</label>
+    <h4><label for="perfil"> Perfil de usuario </label></h4>
+<section id="profile">
+    <label for="vendedor"> <input type="radio" name="perfil" value="Vender"> Vender</label>
+    <label for="comprador"> <input type="radio" name="perfil" value="Comprar"> Comprar</label>
 </section>
 
-    <label for="categoriasInteres" class="titulo" id="categoria"> Categorías de interés </label>
+    <h4><label for="categoriasInteres"> Categorías de interés </label></h4>
 
-<section>
-    <input type="checkbox" class="cajita" name="categoriasInteres" value="Electro">
-    <label for="categoriasInteres">Electro</label>
-    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Moda">
-    <label for="categoriasInteres">Moda</label>
-    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Hogar">
-    <label for="categoriasInteres">Hogar</label>
-    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Juguetería">
-    <label for="categoriasInteres">Juguetería</label>
-    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Vida Sana">
-    <label for="categoriasInteres">Vida Sana</label>
+<section id="categorias">
+    <br> <label for="categoriasInteres"> <input type="checkbox" name="categoriasInteres" value="Electro"> Electro</label>
+    <br> <label for="categoriasInteres"><input type="checkbox" name="categoriasInteres" value="Moda"> Moda</label>
+    <br> <label for="categoriasInteres"><input type="checkbox" name="categoriasInteres" value="Hogar"> Hogar</label>
+    <br> <label for="categoriasInteres"><input type="checkbox" name="categoriasInteres" value="Juguetería"> Juguetería</label>
+    <br> <label for="categoriasInteres"><input type="checkbox" name="categoriasInteres" value="Vida Sana"> Vida Sana</label>
 </section>
 
-<section>
-    <label for="fotoUsuario" id="fotoUsuario"> Subir una foto de perfil </label>
-    <input type="file" id="selFoto" name="fotoUsuario" accept=".jpg .jpeg .png .gif">
-</section>
+    <h4><label for="fotoUsuario"> Subir una foto de perfil </label></h4>
+    <input type="file" name="fotoUsuario" id="select-photo" accept=".jpg .jpeg .png .gif">
 
-    <input type="password" placeholder="Contraseña" name="password" required minlength="8">
+    <input type="password" placeholder="Contraseña" name="password" class="box-form" required minlength="8">
     
-    <input type="password" placeholder="Confirmar contraseña" name="passwordCheck" required minlength="8">  
+    <input type="password" placeholder="Confirmar contraseña" name="passwordCheck" class="box-form" required minlength="8">  
 
     <button type="reset"> Borrar datos </button>
     <button type="submit"> Enviar </button>
 </form>
+</div>
 
 </main>
 
