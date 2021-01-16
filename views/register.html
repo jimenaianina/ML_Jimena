@@ -55,9 +55,9 @@
 
 <form action="" method="POST">
 
-    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" id="nombreCompleto" required>
+    <input type="text" placeholder="Nombre y apellido" name="nombreCompleto" required>
 
-    <input type="text" placeholder="Nombre de usuario" name="usuario" id="usuario" required minlength="8">
+    <input type="text" placeholder="Nombre de usuario" name="usuario" required minlength="8">
 
     <input type="email" placeholder="E-mail" name="email" id="email" required>
 
@@ -67,25 +67,23 @@
     <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio" required>
 
     <label for="perfil" class="titulo" id="perfilUsuario"> Perfil de usuario </label>
-<section>
-    <input type="radio" id="cajita" class="perfilVendedor" name="perfil" value="Vender">
-    <label for="vendedor">Vender</label>
-    <input type="radio" id="cajita" class="perfilVendedor" name="perfil" value="Comprar">
-    <label for="comprador">Comprar</label>
+<section class="comprarOVender">
+    <label for="vendedor"> <input type="radio" class="cajita" class="perfilVendedor" name="perfil" value="Vender">Vender</label>
+    <label for="comprador"> <input type="radio" class="cajita" class="perfilVendedor" name="perfil" value="Comprar">Comprar</label>
 </section>
 
     <label for="categoriasInteres" class="titulo" id="categoria"> Categorías de interés </label>
 
 <section>
-    <input type="checkbox" id="cajita" name="categoriasInteres" value="Electro">
+    <input type="checkbox" class="cajita" name="categoriasInteres" value="Electro">
     <label for="categoriasInteres">Electro</label>
-    <br> <input type="checkbox" id="cajita" name="categoriasInteres" value="Moda">
+    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Moda">
     <label for="categoriasInteres">Moda</label>
-    <br> <input type="checkbox" id="cajita" name="categoriasInteres" value="Hogar">
+    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Hogar">
     <label for="categoriasInteres">Hogar</label>
-    <br> <input type="checkbox" id="cajita" name="categoriasInteres" value="Juguetería">
+    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Juguetería">
     <label for="categoriasInteres">Juguetería</label>
-    <br> <input type="checkbox" id="cajita" name="categoriasInteres" value="Vida Sana">
+    <br> <input type="checkbox" class="cajita" name="categoriasInteres" value="Vida Sana">
     <label for="categoriasInteres">Vida Sana</label>
 </section>
 
