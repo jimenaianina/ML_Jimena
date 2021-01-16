@@ -46,7 +46,6 @@ header .topHeader #searchBar input {
 header .topHeader #searchBar button {
     width: 32px;
     height: 32px;
-    display: inline-block;
 }
 
 #compraCuotas {
@@ -347,6 +346,22 @@ main article:hover {
     -webkit-box-shadow: 1px 1px 5px 0px grey;
     -moz-box-shadow: 1px 1px 5px 0px grey;
     box-shadow: 1px 1px 5px 0px grey;
+}
+
+div.topHeader img, #searchBar, #compraCuotas{
+    width: 33%;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+header .topHeader #searchBar input {
+    width: 252px;
+    padding: 4px;
+}
+
+header .topHeader #searchBar button {
+    width: 30px;
 }
 
 header nav {
