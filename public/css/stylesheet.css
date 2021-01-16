@@ -227,6 +227,7 @@ main form input {
     position: relative;
     left: 12%;
     bottom: -24px;
+    width: 320px;
 }
 
 main form button {
